@@ -15,7 +15,7 @@ class User
         $user->firstName = $resultset['firstName'];
         $user->lastName  = $resultset['lastName'];
         $user->email     = $resultset['emailid'];
-        $db->read($sql);
+        $result          =$db->get($sql);
         return $user;
     }
    
