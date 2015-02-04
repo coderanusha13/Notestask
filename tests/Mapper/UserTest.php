@@ -3,7 +3,6 @@ namespace notes\Mapper;
 
 class UserTest extends \PHPUnit_Extensions_Database_TestCase
 {
-    
     public function getConnection()
     {
         $dbhost = "localhost";
@@ -25,3 +24,5 @@ class UserTest extends \PHPUnit_Extensions_Database_TestCase
         return $this->createXMLDataSet(dirname(__FILE__) . '/files/user-seed.xml');
     }
 }
+
+

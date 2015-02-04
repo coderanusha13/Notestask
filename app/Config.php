@@ -1,5 +1,5 @@
 <?php
-namespace notes\Model;
+namespace notes\Config;
 
 class Config
 {
